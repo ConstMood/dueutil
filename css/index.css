@@ -11,11 +11,12 @@
 body {
   margin: 0;
   background-color: #17cdb9;
+  background-image: url(../img/Repeat_Grid_1.svg);
 }
 
 #header header {
   margin: 0;
-  padding: 1vh;
+  padding: 1%;
   background-color: #0e8e80;
 
   display: flex;
@@ -29,21 +30,33 @@ body {
 }
 
 .button-container {
-  margin-top: 2vh;
+  margin-top: 1%;
 }
 
 .button-content {
   font-family: "Patrick Hand", cursive;
   color: #f6dccb;
-  font-size: 1em;
+  font-size: 1.5em;
+  font-weight: 600;
   border: none;
   margin: auto;
-  height: 40px;
-  width: 170px;
-  border-radius: 11px;
+  height: 1.5em;
+  width: 100%;
+  border-radius: 10px;
   background: #e77345;
-  box-shadow: 4px 4px 7px rgba(97, 84, 79, 0.842),
-    -4px -4px 7px rgba(232, 241, 239, 0.356);
+  box-shadow: 4px 4px 10px rgba(97, 84, 79, 0.842),
+    -4px -4px 10px rgba(232, 241, 239, 0.356);
+}
+
+.button-content:hover {
+  background-color: #c7653e;
+    box-shadow: 2px 2px 8px rgba(97, 84, 79, 0.842),
+    -2px -2px 8px rgba(232, 241, 239, 0.356);
+}
+
+.button-content:active {
+    box-shadow: inset 4px 4px 7px rgba(97, 84, 79, 0.842),
+    inset -4px -4px 7px rgba(232, 241, 239, 0.356);
 }
 
 #text {
@@ -62,44 +75,44 @@ body {
 
 #player-admin h1 {
   font-family: "Patrick Hand", cursive;
-  font-size: 40px;
+  font-size: 2.5em;
   color: white;
 }
 
 #player-admin h3 {
-  width: 150px;
+  width: 10%;
   font-family: "Patrick Hand", cursive;
-  font-size: 30px;
+  font-size: 2em;
   border-radius: 20px;
   background-color: #0e8e80;
   color: #f6dccb;
 }
 
 #player img {
-  width: 170px;
-  height: 140px;
+  width: 90%;
+  height: 70%;
 }
 
 .player-content {
-  width: 200px;
-  height: 200px;
+  width: 15em;
+  height: 15em;
   border: none;
-  border-radius: 11px;
+  border-radius: 10px;
   background: #fe9268;
   box-shadow: 4px 4px 7px rgba(97, 84, 79, 0.842),
     -4px -4px 7px rgba(232, 241, 239, 0.356);
 }
 
 #admin img {
-  width: 135px;
-  height: 140px;
+  width: 80%;
+  height: 70%;
 }
 
 .admin-content {
-  width: 200px;
-  height: 200px;
+  width: 15em;
+  height: 15em;
   border: none;
-  border-radius: 11px;
+  border-radius: 10px;
   background: #fe9268;
   box-shadow: 4px 4px 7px rgba(97, 84, 79, 0.842),
     -4px -4px 7px rgba(232, 241, 239, 0.356);

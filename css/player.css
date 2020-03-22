@@ -9,12 +9,14 @@
 }
 
 body {
+  background-image: url(../img/Repeat_Grid_1.svg);
   margin: 0;
   background-color: #17cdb9;
 }
 
 .hidden {
-  display: none;
+  /* visibility: hidden; */
+  display: none !important;
 }
 
 .visible {
@@ -22,8 +24,9 @@ body {
 }
 
 #header header {
+  width: 100%;
   margin: 0;
-  padding: 20px;
+  padding: 2%;
   background-color: #0e8e80;
 
   display: flex;
@@ -37,7 +40,7 @@ body {
 }
 
 .button-container {
-  margin-top: 20px;
+  margin-top: 2%;
 }
 
 .button-content {
@@ -51,8 +54,19 @@ body {
   width: 170px;
   border-radius: 11px;
   background: #e77345;
-  box-shadow: 4px 4px 7px rgba(97, 84, 79, 0.842),
-    -4px -4px 7px rgba(232, 241, 239, 0.356);
+  box-shadow: 4px 4px 10px rgba(97, 84, 79, 0.842),
+    -4px -4px 10px rgba(232, 241, 239, 0.356);
+}
+
+.button-content:hover {
+  background-color: #c7653e;
+    box-shadow: 2px 2px 8px rgba(97, 84, 79, 0.842),
+    -2px -2px 8px rgba(232, 241, 239, 0.356);
+}
+
+.button-content:active {
+    box-shadow: inset 4px 4px 7px rgba(97, 84, 79, 0.842),
+    inset -4px -4px 7px rgba(232, 241, 239, 0.356);
 }
 
 #categories {
@@ -76,13 +90,13 @@ body {
 }
 
 .start-content img {
-  width: 170px;
-  height: 180px;
+  width: 90%;
+  /* height: 180px; */
 }
 
 .start-content {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   border: none;
   border-radius: 11px;
   background: #fe9268;
@@ -91,14 +105,15 @@ body {
 }
 
 .questing-content img {
-  margin-top: 5px;
-  width: 110px;
-  height: 110px;
+  margin-top: 5%;
+  width: 90%;
+  /* width: 110px; */
+  /* height: 110px; */
 }
 
 .questing-content {
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 80px;
   border: none;
   border-radius: 11px;
   background: #fe9268;
@@ -107,14 +122,15 @@ body {
 }
 
 .weapons-content img {
-  margin-top: 15px;
-  width: 90px;
-  height: 95px;
+  /* margin-top: 15px; */
+  width: 80%;
+  /* width: 90px;
+  height: 95px; */
 }
 
 .weapons-content {
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 80px;
   border: none;
   border-radius: 11px;
   background: #fe9268;
@@ -123,14 +139,15 @@ body {
 }
 
 .customization-content img {
-  margin-top: 15px;
-  width: 90px;
-  height: 100px;
+  /* margin-top: 15px; */
+  /* width: 90px; */
+  /* height: 100px; */
+  width: 75%;
 }
 
 .customization-content {
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 80px;
   border: none;
   border-radius: 11px;
   background: #fe9268;
@@ -138,18 +155,26 @@ body {
     -4px -4px 7px rgba(232, 241, 239, 0.356);
 }
 
+.content {
+  margin-top: 30px;
+}
+
 #guide-title h1 {
-  margin-top: 50px;
+  display: inline;
+  /* margin-top: 50px; */
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: center;
-  width: 350px;
+  /* width: 20%; */
   font-family: "Patrick Hand", cursive;
-  font-size: 50px;
+  font-size: 1.5em;
   border-radius: 20px;
   background-color: #0e8e80;
   color: #f6dccb;
 }
 
 #guide {
+  margin-top: 20px;
   width: 900px;
   height: 550px;
   background-color: #0e8e80;
@@ -157,6 +182,7 @@ body {
 }
 
 footer {
+  width: 100%;
   margin-top: 50px;
   display: flex;
   flex-direction: column;

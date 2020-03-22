@@ -51,8 +51,19 @@ body {
   width: 170px;
   border-radius: 11px;
   background: #e77345;
-  box-shadow: 4px 4px 7px rgba(97, 84, 79, 0.842),
-    -4px -4px 7px rgba(232, 241, 239, 0.356);
+  box-shadow: 4px 4px 10px rgba(97, 84, 79, 0.842),
+    -4px -4px 10px rgba(232, 241, 239, 0.356);
+}
+
+.button-content:hover {
+  background-color: #c7653e;
+    box-shadow: 2px 2px 8px rgba(97, 84, 79, 0.842),
+    -2px -2px 8px rgba(232, 241, 239, 0.356);
+}
+
+.button-content:active {
+    box-shadow: inset 4px 4px 7px rgba(97, 84, 79, 0.842),
+    inset -4px -4px 7px rgba(232, 241, 239, 0.356);
 }
 
 #categories {
